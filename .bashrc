@@ -9,6 +9,7 @@ alias ls='ls --color=auto'
 PATH=$PATH:/home/ed/Documents/cloned_repos/onivim/squashfs-root/
 export script="/home/ed/Documents/scripts/"
 export code="/home/ed/Documents/code/"
+export repos="/home/ed/Documents/repos/"
 export gopath="/home/ed/Documents/code/go/"
 export host="/etc/hosts"
 export uni="/home/ed/Documents/university/year4/"
@@ -37,3 +38,7 @@ alias xdp='xdp1; xdp2'
 alias xdpoff='xdp1off; xdp2off'
 
 export HISTCONTROL=ignoredups
+
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
