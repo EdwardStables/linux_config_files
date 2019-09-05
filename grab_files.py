@@ -1,5 +1,7 @@
 #!/usr/bin/env python 
 
+#tiny script to grab files from their defaults :)
+
 import os
 import shutil 
 
