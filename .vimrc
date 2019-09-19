@@ -19,7 +19,7 @@ nnoremap fv :b#<cr>
 "nnoremap pl :!pdflatex main.tex<cr>
 "nnoremap pb :!bibtex main.aux<cr>
 nnoremap mn :set nonu \| set nornu<CR>
-nnoremap nm :set nu \| set rnu<CR>
+nnoremap mm :set nu \| set rnu<CR>
 
 nnoremap <F9> :set spell! <CR>
 nnoremap <F10> :set paste! <CR>

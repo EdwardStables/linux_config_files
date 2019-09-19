@@ -33,7 +33,10 @@ alias md='mkdir'
 alias c='cd $code'
 alias r='cd $repos'
 alias s='cd $script'
+alias u='cd $uni'
 alias d='cd ~/Documents/'
+alias g='cd ~/Documents/game_making/'
+alias p='cd ~/Documents/projects/'
 
 #display aliases
 alias xdp1='xrandr --output DP-1 --mode 1920x1080 --rate 60 --right-of eDP-1'
