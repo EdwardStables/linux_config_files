@@ -16,11 +16,10 @@ inoremap {<Return> {<CR>}<C-c>O<Tab>
 
 nnoremap gb :ls<cr>:b<space>
 nnoremap fv :b#<cr>
-"nnoremap pl :!pdflatex main.tex<cr>
-"nnoremap pb :!bibtex main.aux<cr>
 nnoremap mn :set nonu \| set nornu<CR>
 nnoremap mm :set nu \| set rnu<CR>
 
+nnoremap <F6> :noh <CR>
 nnoremap <F9> :set spell! <CR>
 nnoremap <F10> :set paste! <CR>
 
@@ -64,8 +63,6 @@ set cmdheight=2
 set pastetoggle=<F11>
 
 map Y y$
-
-nnoremap <C-L> :nohl<CR><C-L>
 
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
 autocmd FileType ino setlocal shiftwidth=2 tabstop=2
