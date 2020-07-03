@@ -6,6 +6,7 @@ set number
 set relativenumber
 set mouse=a
 filetype plugin indent on
+filetype plugin on
 
 runtime macros/matchit.vim
 
@@ -15,7 +16,7 @@ set ttimeoutlen=0
 inoremap (<Space> ()<Left>
 inoremap [<Space> []<Left>
 inoremap {<Space> {}<Left>
-inoremap {<Return> {<CR>}<C-c>O<Tab>
+inoremap {<Return> {<CR>}<C-c>O
 
 nnoremap gb :ls<cr>:b<space>
 nnoremap fv :b#<cr>

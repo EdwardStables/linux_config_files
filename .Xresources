@@ -45,7 +45,14 @@ URxvt*.perl-ext-common:  keyboard-select,font-size,tabbedex
 URxvt*.keysym.M-Escape:  perl:keyboard-select:activate
 
 URxvt.meta8:true
-URxvt*.keysym.C-m:   font-size:incglobal
-URxvt*.keysym.C-n:   font-size:decglobal
-URxvt*.font:         xft:bitstream vera sans mono:size=16:antialias=true
+URxvt*.font:         xft:bitstream vera sans mono:size=14:antialias=true
+
+URxvt.perl-ext-common:	keyboard-select,resize-font,tabbedex
+
+#URxvt.keysym.Control-Up:     \033[1;5A
+#URxvt.keysym.Control-Down:   \033[1;5B
+#URxvt.keysym.C-Up:           resize-font:bigger 
+#URxvt.keysym.C-Down:         resize-font:smaller
+URxvt.keysym.Control-Left:   \033[1;5D
+uRxvt.keysym.Control-Right:  \033[1;5C
 
