@@ -19,17 +19,18 @@ export gopath="/home/ed/Documents/code/go/"
 export host="/etc/hosts"
 export uni="/home/ed/Documents/university/year4/"
 export BROWSER="firefox"
-export JULIA_NUM_THREADS=8
+export JULIA_NUM_THREADS=12
 
 BLUE="\[$(tput setaf 4)\]"
+GREEN="\[$(tput setaf 2)\]"
 RESET="\[$(tput sgr0)\]"
-PS1="${BLUE}[\W]>${RESET} "
+PS1="${GREEN}[\W]>${RESET} "
 
 #command aliases
 alias ..='cd ..'
 alias v='vim'
-alias l='ls -l'
-alias la='ls -al'
+alias l='ls -lh'
+alias la='ls -ahl'
 alias p='python'
 alias j='julia --banner=no'
 alias pi='ping google.com -c 1'
@@ -76,6 +77,4 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 
 source /usr/share/git/completion/git-completion.bash
-
-
-
+source /opt/Xilinx/Vivado/2020.1/settings64.sh
