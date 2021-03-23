@@ -12,6 +12,10 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'JuliaEditorSupport/julia-vim'
 Plugin 'ajh17/VimCompletesMe'
+Plugin 'preservim/nerdtree'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -32,7 +36,7 @@ filetype plugin indent on    " required
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set autoindent 
+set autoindent
 set number
 set relativenumber
 set mouse=a
@@ -60,7 +64,7 @@ nnoremap <F3> :set paste! <CR>
 
 nnoremap ZZ :stop <CR>
 
-"Switch windows 
+"Switch windows
 execute "set <A-j>=\ej"
 nnoremap <A-j> <C-W><C-J>
 execute "set <A-k>=\ek"
